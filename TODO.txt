@@ -1,4 +1,11 @@
 1. 使用 AI 学习控制算法;
 2. 使用 AI 学习运筹优化算法；
 3. 使用 AI 学习时间序列预测算法；
+    - 阿里蚂蚁数科：EnergyTS
+    - 谷歌: TimeFM-V2.0
+    - 亚马逊: Chronos-Large
+    - Moirai
+    - TiRex
+    - Sundial
+    - TOTO
 4. 使用 AI 学习深度学习算法；
