@@ -2,6 +2,7 @@
 
 - [1.模型选择](#1模型选择)
 - [2.Agent 框架选择](#2agent-框架选择)
+    - [HAPI](#hapi)
     - [Claude Code](#claude-code)
         - [Claude Code 安装](#claude-code-安装)
         - [Agent 安装](#agent-安装)
@@ -10,7 +11,7 @@
         - [Codex 安装](#codex-安装)
     - [OpenClaw](#openclaw)
         - [OpenClaw 安装](#openclaw-安装)
-- [AI 使用方法](#ai-使用方法)
+- [3. AI 使用方法](#3-ai-使用方法)
     - [分析一个网页的文章，提取关键信息](#分析一个网页的文章提取关键信息)
 - [资料](#资料)
 </p></details><p></p>
@@ -25,6 +26,10 @@
 6. QWen
 
 # 2.Agent 框架选择
+
+## HAPI
+
+
 
 ## Claude Code
 
@@ -49,14 +54,12 @@ https://github.com/wshobson/agents
 用尽量多的 Agent 检查我们的项目, 只检查, 不修改代码
 ```
 
-1. 在正常的使用场景中，我们可以先让 Claude Code 判断，某个具体任务、到底需要用到哪些专业对口的 Agent？
+2. 在正常的使用场景中，我们可以先让 Claude Code 判断，某个具体任务、到底需要用到哪些专业对口的 Agent？
    先给出 Agents 调度方案，我们确认或者补充后，再执行。
 
 ```
 我想要分析我们当前项目的算法性能，你建议我们使用哪些 Agents 来做？先和我讨论 Agents 调度方案，和我确认后，再执行。
 ```
-
-
 
 ## Codex
 
@@ -66,7 +69,7 @@ https://github.com/wshobson/agents
 
 ### OpenClaw 安装
 
-# AI 使用方法
+# 3. AI 使用方法
 
 ## 分析一个网页的文章，提取关键信息
 
