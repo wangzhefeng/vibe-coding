@@ -10,6 +10,7 @@
         - [Codex 安装](#codex-安装)
     - [OpenClaw](#openclaw)
         - [OpenClaw 安装](#openclaw-安装)
+        - [OpenClaw 配置模型](#openclaw-配置模型)
 - [AI 使用方法](#ai-使用方法)
     - [分析一个网页的文章，提取关键信息](#分析一个网页的文章提取关键信息)
 - [资料](#资料)
@@ -65,6 +66,27 @@ https://github.com/wshobson/agents
 ## OpenClaw
 
 ### OpenClaw 安装
+
+### OpenClaw 配置模型
+
+Codex：
+
+```bash
+$ openclaw onboard --auth-choice openai-codex
+$ openclaw config set agents.defaults.model.primary "openai-codex/gpt-5.4"
+```
+
+DeepSeek：
+
+```bash
+$ 
+```
+
+智谱 GLM-5-turbo：
+
+```bash
+$ 
+```
 
 # AI 使用方法
 
