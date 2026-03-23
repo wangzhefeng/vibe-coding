@@ -40,6 +40,21 @@
 
 # 4.资料
 
+> 资料整理策略：采用“核心优先 + 官方补全 + 重复合并”的方式构建知识库。对于原始链接可直接提炼的内容做结构化整理；对于访问不稳定或信息不完整的内容，优先使用官方文档、源码仓库或论文补全。当前已继续补充微信公众号文章中的方法论、案例经验与实践主线。
+
+> 若需要将当前整理任务迁移到其他设备继续执行，可直接使用项目根目录 `handoff_codex.md` 作为交接文件。
+
+## 知识库导航
+
+- [Tools 知识库](docs/tools/README.md)
+- [OpenClaw 知识库](docs/openclaw/README.md)
+- [Skills 知识库](docs/skills/README.md)
+- [Claude Code 知识库](docs/claude_code/README.md)
+- [Codex 知识库](docs/codex/README.md)
+- [MCP 知识库](docs/mcp/README.md)
+- [Agent 知识库](docs/agent/README.md)
+- [RAG 知识库](docs/rag/README.md)
+
 ## Tools
 
 * [Python 爬虫: Scrapling](https://github.com/D4Vinci/Scrapling)
