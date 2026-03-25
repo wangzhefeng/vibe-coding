@@ -2,12 +2,22 @@
 
 - [1. 模型选择](#1-模型选择)
 - [2. Agent 框架选择](#2-agent-框架选择)
-- [3. 使用方法总结](#3-使用方法总结)
-- [4. 资料](#4-资料)
+- [3. 机器学习](#3-机器学习)
+- [4. 时间序列分析](#4-时间序列分析)
+- [5. 数学建模与运筹优化](#5-数学建模与运筹优化)
+- [6. Vibe Coding](#6-vibe-coding)
   - [知识库导航](#知识库导航)
   - [建议阅读顺序](#建议阅读顺序)
   - [资料层级说明](#资料层级说明)
   - [主题资料链接](#主题资料链接)
+    - [Tools](#tools)
+    - [OpenClaw](#openclaw)
+    - [Skills](#skills)
+    - [Claude Code](#claude-code)
+    - [Codex](#codex)
+    - [Agent](#agent)
+    - [MCP](#mcp)
+    - [RAG](#rag)
 
 </p></details>
 
@@ -26,15 +36,47 @@
 2. Codex
 3. OpenClaw
 
-# 3. 使用方法总结
+# 3. 机器学习
 
-## 3.1 分析一个网页的文章，提取关键信息
+* [一文带你探索性数据分析(EDA)](https://www.jianshu.com/p/9325c9f88ee6)
+* [支持向量机（SVM）是什么意思？](https://www.zhihu.com/question/21094489?sort=created)
+* [Exploratory Data Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf)
+* [LightGBM 中文文档](https://lightgbm.apachecn.org/)
+* ["Dance with Ensemble" Sharing Thread](https://www.kaggle.com/competitions/avito-demand-prediction/writeups/dance-with-ensemble-dance-with-ensemble-sharing-th)
 
-1. [一文带你探索性数据分析(EDA)](https://www.jianshu.com/p/9325c9f88ee6)
-2. [支持向量机（SVM）是什么意思？](https://www.zhihu.com/question/21094489?sort=created)
-3. [Exploratory Data Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf)
+# 4. 时间序列分析
 
-# 4. 资料
+* [Time-related feature engineering](https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html)
+* [Time Series Module Features & Roadmap](https://github.com/pycaret/pycaret/issues/1648)
+* [Time Series](https://pycaret.readthedocs.io/en/stable/api/time_series.html)
+* [时间序列](https://blog.csdn.net/qq_25990967/category_11658799.html?spm=1001.2014.3001.5482)
+* [XGBoost类库使用小结](https://www.cnblogs.com/pinard/p/11114748.html)
+* [LightGBM parameters](https://lightgbm.readthedocs.io/en/stable/Parameters.html#objective-parameters)
+* [LightGBM自定义损失函数的正确写法](https://blog.csdn.net/jxlijunhao/article/details/115360961)
+* [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://huggingface.co/papers/2012.07436)
+* [写给你的金融时间序列分析：基础篇](https://zhuanlan.zhihu.com/p/38320827)
+* [How to Model Volatility with ARCH and GARCH for Time Series Forecasting in Python](https://machinelearningmastery.com/develop-arch-and-garch-models-for-time-series-forecasting-in-python/)
+* [时间序列预测方法汇总](https://zhuanlan.zhihu.com/p/471014006)
+* [时间序列预测](https://www.zhihu.com/collection/973717606)
+* [awesome-time-series-papers](https://github.com/TSCenter/awesome-time-series-papers)
+* [时间序列预测还能在进步吗？](https://www.zhihu.com/question/1302007972)
+
+# 5. 数学建模与运筹优化
+
+* [数学建模导论](https://datawhalechina.github.io/intro-mathmodel/#/)
+* [数学建模课](https://youcans.blog.csdn.net/category_11031563.html)
+* [Python小白的数学建模课-01.新手必读](https://youcans.blog.csdn.net/article/details/117295222)
+* [Python的数学建模课-02.数据导入](https://blog.csdn.net/youcans/article/details/117333479)
+* [Python小白的数学建模课-03.线性规划](https://blog.csdn.net/youcans/article/details/117388930)
+* [运筹OR帷幄](https://www.zhihu.com/org/yun-chou-orwei-wo/columns)
+* [『运筹OR帷幄』大数据时代的运筹学](https://www.zhihu.com/column/c_1078650287417487360)
+* [『运筹帷幄』人工智能|数据科学|运筹学交叉](https://www.zhihu.com/column/operations-research)
+* [运筹优化](https://www.zhihu.com/people/wen-yu-zhi-37/columns)
+* [运筹学与控制论](https://www.zhihu.com/column/c_1099378515039928320)
+* [运筹优化软件](https://www.zhihu.com/column/c_1242111571473969152)
+* [doFighter/Computational-intelligence](https://github.com/doFighter/Computational-intelligence/)
+
+# 6. Vibe Coding
 
 > 当前知识库采用“核心优先 + 官方补全 + 重复合并”的整理策略。对于原始文章中可稳定提炼的内容，做结构化归纳；对于不稳定链接或信息不完整的内容，优先用官方文档、源码仓库、论文或公开镜像补全。
 
@@ -151,6 +193,7 @@
 ### Agent
 
 * [万字长文深入浅出教你优雅开发复杂AI Agent](https://mp.weixin.qq.com/s/-EVLZLMeJpfRGIZbYOPFbg)
+* [关于智能体（AI Agent）入门，一篇超详细的总结](https://mp.weixin.qq.com/s/Eq8dhLoB10Clq6hTmx4QLA)
 
 ### MCP
 
@@ -181,3 +224,5 @@
 * [Nipi64310/RAG-Book](https://github.com/Nipi64310/RAG-Book)
 * [ragflow deepdoc 中文说明](https://github.com/infiniflow/ragflow/blob/main/deepdoc/README_zh.md)
 * [A Comprehensive Review of Retrieval-Augmented Generation (RAG)](https://arxiv.org/pdf/2410.12837)
+* [RAG学习必备，论文+实战+经验全收录](https://mp.weixin.qq.com/s/7bN9YrWnc08kKmW9453UQg)
+* [最全梳理：一文搞懂RAG技术的5种范式！](https://mp.weixin.qq.com/s/lbeeblGYvb1JeC0gW4AE9g)
