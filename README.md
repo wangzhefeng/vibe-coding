@@ -1,11 +1,10 @@
 <details><summary>目录</summary><p>
 
-- [1. 模型选择](#1-模型选择)
-- [2. Agent 框架选择](#2-agent-框架选择)
-- [3. 机器学习](#3-机器学习)
-- [4. 时间序列分析](#4-时间序列分析)
-- [5. 数学建模与运筹优化](#5-数学建模与运筹优化)
-- [6. Vibe Coding](#6-vibe-coding)
+- [1. Python](#1-python)
+- [2. 机器学习](#2-机器学习)
+- [3. 时间序列分析](#3-时间序列分析)
+- [4. 数学建模与运筹优化](#4-数学建模与运筹优化)
+- [5. Vibe Coding](#5-vibe-coding)
   - [知识库导航](#知识库导航)
   - [建议阅读顺序](#建议阅读顺序)
   - [资料层级说明](#资料层级说明)
@@ -21,30 +20,40 @@
 
 </p></details>
 
-# 1. 模型选择
 
-1. Anthropic
-2. OpenAI
-3. MiniMax
-4. Kimi
-5. DeepSeek
-6. QWen
+# 1. Python
 
-# 2. Agent 框架选择
+* [Logging in Python](https://realpython.com/python-logging/)
+* [Asynchronous HTTP Client/Server for asyncio and Python](https://docs.aiohttp.org/en/stable/client_quickstart.html)
+* [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+* [Python开发者的完美终端工具](https://mp.weixin.qq.com/s/QxfXQuaIhPng40Pexw3KlQ)
+* [监控Cron定时任务的神器 — Healthchecks](https://mp.weixin.qq.com/s?__biz=Mzg2OTg3MTU2OQ==&mid=2247506353&idx=2&sn=b7863837f4299ce711ddb44cb55fa3c2&source=41#wechat_redirect)
+* [ Python 中的链式调用](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653562756&idx=1&sn=d3bc943ee9ed462052363b923794cbcb&scene=21#wechat_redirect)
+* [有关单元测试的 5 个建议](https://mp.weixin.qq.com/s/kHqZrDJhsu4v8ZEQ7QJ3wQ)
+* [[Book] The Architecture Of Open Source Applications](http://linkhttp://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017)
+* [Kenneth Reitz](https://kenreitz.org/)
+* [GitHub 仓库示例](https://github.com/navdeep-G/samplemod)
 
-1. Claude Code
-2. Codex
-3. OpenClaw
-
-# 3. 机器学习
+# 2. 机器学习
 
 * [一文带你探索性数据分析(EDA)](https://www.jianshu.com/p/9325c9f88ee6)
 * [支持向量机（SVM）是什么意思？](https://www.zhihu.com/question/21094489?sort=created)
 * [Exploratory Data Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf)
 * [LightGBM 中文文档](https://lightgbm.apachecn.org/)
 * ["Dance with Ensemble" Sharing Thread](https://www.kaggle.com/competitions/avito-demand-prediction/writeups/dance-with-ensemble-dance-with-ensemble-sharing-th)
+* [使用sklearn优雅地进行数据挖掘](https://www.cnblogs.com/jasonfreak/p/5448462.html)
+* [auto-sklearn](https://automl.github.io/auto-sklearn/master/index.html#)
+* [fastai](https://docs.fast.ai/)
+* [表格类数据模型](https://zhuanlan.zhihu.com/p/381323980)
+* [稀疏矩阵存储格式总结+存储效率对比:COO,CSR,DIA,ELL,HYB](https://www.cnblogs.com/xbinworld/p/4273506.html?utm_source=tuicool&utm_medium=referral)
+* [机器学习入门清单及路线](https://mp.weixin.qq.com/s/KeD9kPG8PowlKrz69zSHNQ)
+* [机器学习初学者易踩的5个坑](https://mp.weixin.qq.com/s/6r4FX7DEIUHE8pnYkftXSA)
+* [机器学习43条军规：解密谷歌机器学习工程最佳实践（上）](https://zhuanlan.zhihu.com/p/29409286)
+* [机器学习43条军规：解密谷歌机器学习工程最佳实践（下）](https://zhuanlan.zhihu.com/p/29446616)
+* [特征工程](https://www.zhihu.com/question/29316149/answer/110159647)
+* [高斯过程回归](https://zhuanlan.zhihu.com/p/114962778)
 
-# 4. 时间序列分析
+# 3. 时间序列分析
 
 * [Time-related feature engineering](https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html)
 * [Time Series Module Features & Roadmap](https://github.com/pycaret/pycaret/issues/1648)
@@ -60,8 +69,18 @@
 * [时间序列预测](https://www.zhihu.com/collection/973717606)
 * [awesome-time-series-papers](https://github.com/TSCenter/awesome-time-series-papers)
 * [时间序列预测还能在进步吗？](https://www.zhihu.com/question/1302007972)
+* [数据泄露](https://www.kaggle.com/code/alexisbcook/data-leakage/tutorial)
+* [时间序列表示学习](https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247483863&idx=1&sn=db7a9e15385c8f34bba86b442c5f5f67&chksm=cecef422f9b97d34b9968291a332157524cb9a789452a06673e703b6891971206f0ca58f2178&scene=21#wechat_redirect)
+* [时间序列轨迹聚类](https://mp.weixin.qq.com/s?__biz=Mzg3NDUwNTM3MA==&mid=2247490271&idx=1&sn=fd001c5084f679f4f901c2c48204d20b&chksm=ceceef2af9b9663ce90d8ac017b5e425ba4577454617c0044992857da84a42072ace8ee44e59&scene=132#wechat_redirect)
+* [从数据中提取季节性和趋势](https://anomaly.io/seasonal-trend-decomposition-in-r/index.html)
+* [正态分布异常值检测](https://anomaly.io/anomaly-detection-normal-distribution/index.html)
+* [季节性地调整时间序列](https://anomaly.io/seasonally-adjustement-in-r/index.html)
+* [检测相关时间序列中的异常](https://anomaly.io/detect-anomalies-in-correlated-time-series/index.html)
+* [用移动中位数分解检测异常](https://anomaly.io/anomaly-detection-moving-median-decomposition/index.html)
+* [计算时间序列周期的三种方法](https://mp.weixin.qq.com/s/GbhsnrZvMQdOY1k-EclBPw)
+* [datastream.io](https://github.com/MentatInnovations/datastream.io)
 
-# 5. 数学建模与运筹优化
+# 4. 数学建模与运筹优化
 
 * [数学建模导论](https://datawhalechina.github.io/intro-mathmodel/#/)
 * [数学建模课](https://youcans.blog.csdn.net/category_11031563.html)
@@ -76,7 +95,7 @@
 * [运筹优化软件](https://www.zhihu.com/column/c_1242111571473969152)
 * [doFighter/Computational-intelligence](https://github.com/doFighter/Computational-intelligence/)
 
-# 6. Vibe Coding
+# 5. Vibe Coding
 
 > 当前知识库采用“核心优先 + 官方补全 + 重复合并”的整理策略。对于原始文章中可稳定提炼的内容，做结构化归纳；对于不稳定链接或信息不完整的内容，优先用官方文档、源码仓库、论文或公开镜像补全。
 
