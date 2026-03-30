@@ -3,6 +3,10 @@
 - [1. Python](#1-python)
 - [2. 机器学习](#2-机器学习)
 - [3. 时间序列分析](#3-时间序列分析)
+  - [3.1 基于 Transformer 的时间序列预测](#31-基于-transformer-的时间序列预测)
+  - [3.2 基于 RNN 的时间序列预测](#32-基于-rnn-的时间序列预测)
+  - [3.3 时间序列预测大模型](#33-时间序列预测大模型)
+  - [3.4 时间序列表示学习](#34-时间序列表示学习)
 - [4. 数学建模与运筹优化](#4-数学建模与运筹优化)
 - [5. Vibe Coding](#5-vibe-coding)
   - [知识库导航](#知识库导航)
@@ -79,6 +83,55 @@
 * [用移动中位数分解检测异常](https://anomaly.io/anomaly-detection-moving-median-decomposition/index.html)
 * [计算时间序列周期的三种方法](https://mp.weixin.qq.com/s/GbhsnrZvMQdOY1k-EclBPw)
 * [datastream.io](https://github.com/MentatInnovations/datastream.io)
+
+## 3.1 基于 Transformer 的时间序列预测
+
+* [一文梳理Transformer在时间序列预测中的发展历程代表工作](https://mp.weixin.qq.com/s/OjK7Q7DSoTM_p1MLye9RWw)
+* [圆圆的算法笔记](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyOTUyMDIwNg==&action=getalbum&album_id=2339781350876332033&scene=173&from_msgid=2247487281&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+* [时序人1](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3NDUwNTM3MA==&action=getalbum&album_id=1565545072782278657&scene=173&from_msgid=2247484974&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+* [时序人2](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3NDUwNTM3MA==&action=getalbum&album_id=1588681516295979011&scene=173&from_msgid=2247484974&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+* [时序人3](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NTA1MDk4MA==&action=getalbum&album_id=1401576921242337281&scene=173&from_msgid=2247526075&from_itemidx=2&count=3&nolastread=1#wechat_redirect)
+* [时间序列预报](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzMTMyMDQ0Mw==&action=getalbum&album_id=2512078794435133440&scene=173&from_msgid=2247485132&from_itemidx=2&count=3&nolastread=1#wechat_redirect)
+* Informer
+    - [知乎](https://zhuanlan.zhihu.com/p/355133560)
+    - [知乎](https://zhuanlan.zhihu.com/p/499399526)
+    - [GitHub](https://github.com/zhouhaoyi/Informer2020)
+    - [Paper](https://arxiv.org/abs/2012.07436)
+* [CL-Timeseries](https://github.com/kashif/CL_Timeseries)
+* [LSTNet](https://github.com/laiguokun/LSTNet)
+* [TSForecasting](https://github.com/rakshitha123/TSForecasting)
+* TFT
+    - [知乎](https://zhuanlan.zhihu.com/p/514287527)
+    - [GitHub](https://github.com/google-research/google-research/tree/master/tft)
+    - [Complete Tutorial](https://towardsdatascience.com/temporal-fusion-transformer-time-series-forecasting-with-deep-learning-complete-tutorial-d32c1e51cd91)
+    - [公众号](https://mp.weixin.qq.com/s/0AXSOgivCytHKTCmpPJfFg)
+* [多任务学习MTL模型：MMoE、PLE](https://zhuanlan.zhihu.com/p/425209494)
+* [Temporal Pattern Attention for Multivariate Time Series Forecasting](https://github.com/shunyaoshih/TPA-LSTM)
+* [pytorch-forecasting](https://github.com/jdb78/pytorch-forecasting)
+* [pytorch-ts](https://github.com/zalandoresearch/pytorch-ts)
+* [HF-Time Series Transformer](https://huggingface.co/docs/transformers/main/en/model_doc/time_series_transformer)
+
+## 3.2 基于 RNN 的时间序列预测
+
+## 3.3 时间序列预测大模型
+
+* UniTS
+    - [时间序列统一大模型](https://mp.weixin.qq.com/s/a4TCsYub-OPaqRPSbs6qXw)
+    - [mims-harvard/UniTS](https://github.com/mims-harvard/UniTS)
+* 时间序列预测基准测试
+    - [TFB：2024最新时间序列预测Benchmark](https://mp.weixin.qq.com/s/IPY2QwJ68YIrclMi2JtkMA)
+    - [TFB GitHub](https://github.com/decisionintelligence/TFB)
+* [GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation](https://arxiv.org/abs/2410.10393)
+* Chronos
+    * [时间序列+预训练大模型](https://mp.weixin.qq.com/s?__biz=Mzk0NDE5Nzg1Ng==&mid=2247510967&idx=1&sn=4bffea1d34a5d8770c6939cbf301057c&chksm=c2ef08d9218fc514d4537d2109cb5370b87294b115e8d5df2fc696072b173486908e5b7b90db&scene=132&exptype=timeline_recommend_article_extendread_samebiz&show_related_article=1&subscene=0&scene=132#wechat_redirect)
+    * [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting)
+  
+## 3.4 时间序列表示学习
+
+* [ts2vec](https://github.com/zhihanyue/ts2vec)
+* Correlated Time Series Self-Supervised Representation Learning via Spatiotemporal Bootstrapping
+    * [GitHub](https://github.com/bonaldli/Spatiotemporal-TS-Representation-Learning)
+    * [Paper](https://arxiv.org/abs/2306.06994)
 
 # 4. 数学建模与运筹优化
 
